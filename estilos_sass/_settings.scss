@@ -1,0 +1,28 @@
+@import "mixins";
+$morado: #CCC2E0;
+$negro: #1F1E33;
+$fuente: Helvetica;
+
+body{
+    background-color: $negro;
+    margin: 0;
+    font: $fuente $negro;
+    
+    h1 {
+        @include normal_container;
+        font-size: 34px;
+    }
+    
+    h2 {
+        @include normal_container;
+        font-size: 21px;
+    }
+    
+    p {
+        @include normal_container;
+        font-size: 13px;
+    }
+    li{
+        font-size: 13px;
+    }
+}

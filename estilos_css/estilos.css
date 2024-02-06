@@ -1,0 +1,140 @@
+body {
+  background-color: #1F1E33;
+  margin: 0;
+  font: Helvetica #1F1E33;
+}
+body h1 {
+  padding: 21px;
+  margin: 0;
+  font-size: 34px;
+}
+body h2 {
+  padding: 21px;
+  margin: 0;
+  font-size: 21px;
+}
+body p {
+  padding: 21px;
+  margin: 0;
+  font-size: 13px;
+}
+body li {
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*=col-] {
+  width: 100%;
+  float: left;
+  padding: 0;
+}
+
+.container-head {
+  background-color: #CCC2E0;
+  padding: 0;
+}
+.container-head h1 {
+  text-align: center;
+  color: #CCC2E0;
+  background-color: #1F1E33;
+}
+.container-head .personal_data {
+  text-align: center;
+}
+.container-head .cont-imagen {
+  background-color: #CCC2E0;
+  text-align: center;
+}
+.container-head .cont-imagen img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10%;
+  margin: 13px;
+}
+
+.container-body {
+  padding: 0 10%;
+  background-color: white;
+}
+.container-body .video_container {
+  text-align: center;
+}
+.container-body .video_container video {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .container-head {
+    margin: 0 10%;
+  }
+  .container-head h1 {
+    text-align: left;
+  }
+  .container-head p {
+    padding: 13px;
+  }
+  .container-head .personal_data {
+    text-align: left;
+  }
+  .container-head .cont-imagen {
+    background-color: #1F1E33;
+    text-align: right;
+  }
+  .container-head .cont-imagen img {
+    min-width: 50%;
+  }
+  .container-body {
+    padding: 0;
+    margin: 0 10%;
+    background-color: white;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

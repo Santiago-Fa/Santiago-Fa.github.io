@@ -1,0 +1,7 @@
+$ancho-maximo: 800px;
+$ancho-columnas: 1fr;
+
+@mixin normal_container{
+    padding: 21px;
+    margin: 0;
+}
